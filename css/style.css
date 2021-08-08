@@ -4,7 +4,7 @@ body{
 main{
     
     max-width: 1200px;
-    min-height: 1000px;
+    min-height: 900px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(150, 253, 219);
@@ -32,6 +32,7 @@ h1{
     display: flex;
     justify-content: center;
     align-self: center;
+    width: 300px;
 }
 .sms{
     min-height: 100px;
