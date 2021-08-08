@@ -3,15 +3,17 @@ body{
 }
 main{
     
-    width: 1200px;
+    max-width: 1200px;
     min-height: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color: aquamarine;
+    background-color: rgb(150, 253, 219);
     padding: 50px 0px;
 }
 h1{
     margin: 0 auto;
+    font-weight: 900;
+    color: rgb(3, 70, 47);
 }
 .contents{
     max-width: 600px;
@@ -24,6 +26,8 @@ h1{
     min-height: 40px;
     border-radius: 15px;
     border: 5px;
+    border-style: solid;
+    border-color: rgb(46, 92, 4);
     font-size: 30px;
     display: flex;
     justify-content: center;
@@ -36,6 +40,8 @@ h1{
     font-size: 16px;
     padding: 20px;
     resize: none;
+    border-style: solid;
+    border-color: rgb(23, 59, 1);
 }
 button{
     width: 200px;
@@ -49,5 +55,6 @@ button{
 }
 span{
     font-style: italic;
-    font-size: 14px;
+    font-size: 12px;
+    color: rgb(255, 8, 0);
 }
