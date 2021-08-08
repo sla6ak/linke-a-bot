@@ -15,6 +15,14 @@ document.querySelector('button').onclick = function(){
         let xhttp = new XMLHttpRequest();
         xhttp.open("GET", url + message + space + message1, true);
         xhttp.send();
+        
+        playMusic()
         alert("Отправленно!");
+        function playMusic(){
+            var music = new Audio("./mp3/na-soobschenie-u-menya-prishla-sms-ka.mp3").play(); return false;
+            }
+        }
+        
 }
-}
+
+// './na-soobschenie-u-menya-prishla-sms-ka.mp3'
